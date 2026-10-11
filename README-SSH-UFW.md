@@ -293,7 +293,7 @@ docker rm -f ubuntu-ssh-lab
 
 A imagem `ubuntu:24.04` permanece disponível localmente e pode ser usada para criar outro contêiner.
 
-## 13. Checklist final
+## 12. Checklist final
 
 - [ ] Imagem `ubuntu:24.04` baixada.
 - [ ] Contêiner criado com publicação de porta `2222:22`.
