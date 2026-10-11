@@ -293,29 +293,6 @@ docker rm -f ubuntu-ssh-lab
 
 A imagem `ubuntu:24.04` permanece disponível localmente e pode ser usada para criar outro contêiner.
 
-## 12. Publicar a documentação no GitHub
-
-Dentro do repositório local `GerenciaConfiguracao`, salve este arquivo com o nome `README-SSH-UFW.md` ou incorpore o conteúdo ao `README.md`, conforme a orientação do professor.
-
-Se o repositório já estiver clonado:
-
-```bash
-cd GerenciaConfiguracao
-git status
-git add README-SSH-UFW.md
-git commit -m "Adiciona documentação de SSH e UFW no Ubuntu 24.04"
-git push
-```
-
-Se ainda não clonou o repositório, copie a URL HTTPS exibida na página do projeto no GitHub e execute:
-
-```bash
-git clone URL_DO_REPOSITORIO
-cd GerenciaConfiguracao
-```
-
-Depois crie/salve o arquivo, adicione-o, faça o commit e envie com `git push`. Substitua `URL_DO_REPOSITORIO` pela URL real; não publique credenciais, senhas ou chaves privadas.
-
 ## 13. Checklist final
 
 - [ ] Imagem `ubuntu:24.04` baixada.
